@@ -1,0 +1,442 @@
+*{
+    margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.header{
+    background-color:#003153;
+    
+    height: 80px;
+    width: 100%;  
+  }
+   .navbar{
+    display: flex;
+
+  }
+  .navbar img
+  {
+    height: 65px;
+    width: 150px;
+    border-radius: 7px;
+
+  }  
+  .btn-btn-light
+  {
+    width: 10%;
+    justify-content: flex-end;
+  }
+body {
+	background-color: #0689aa;
+
+	font-family: 'Roboto', sans-serif;
+}
+.header .navbar img {
+  height: 70px;
+}
+.form-control {
+	height: 40px;
+	box-shadow: none;
+	 color: #969fa4; 
+}
+.form-control:focus {
+	border-color: #5cb85c;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.signup-form {
+	width: 450px;
+	margin: 0 auto;
+	padding: 30px 0;
+  	font-size: 15px;
+}
+.signup-form h2 {
+	color: #636363; 
+	margin: 0 0 15px;
+	position: relative;
+	text-align: center;
+}
+.signup-form h2:before, .signup-form h2:after {
+	content: "";
+	height: 2px;
+	width: 30%;
+	background: #d4d4d4;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}	
+.signup-form h2:before {
+	left: 0;
+}
+.signup-form h2:after {
+	right: 0;
+}
+.signup-form .hint-text {
+	color: #999;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #f2f3f7;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+.signup-form .btn {        
+	font-size: 16px;
+	font-weight: bold;		
+	min-width: 140px;
+	outline: none !important;
+}
+.signup-form .row div:first-child {
+	padding-right: 10px;
+}
+.signup-form .row div:last-child {
+	padding-left: 10px;
+}    	
+.signup-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.signup-form a:hover {
+	text-decoration: none;
+}
+.signup-form form a {
+	color: #5cb85c;
+	text-decoration: none;
+}	
+.signup-form form a:hover {
+	text-decoration: underline;
+}  
+.signup-form{
+    float: left;
+    
+}
+.back{
+    background-image: url(../img/social-media-3846597_1280.png);
+    float: right;
+     border: 2px solid red;
+    height: 627px;
+    width: 898px;
+    margin-top: 30px;
+}
+
+/* form and image by gaurav sharma */
+.register{
+    background: -webkit-linear-gradient(left, #003153, #00c6ff);
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41; 
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+.register .nav-tabs{
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+.register .nav-tabs .nav-link
+{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover
+{
+    border: none;
+}
+.register .nav-tabs .nav-link.active
+{
+    width: 100px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.register-heading
+{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+     color: #495057; 
+}
+#image-section{
+    height: 200px;
+}
+/* .about-us{
+    border: 2px solid red;
+} */
+.section1
+{
+    height: 500px;
+    width: 75%;
+    background-color: #00c6ff;
+    float: left;
+}
+.topsec1
+{
+    height: 50%;
+    border-top: 5px solid lightgray;
+}
+.topsecleft img
+{
+    width: 50%;
+    height: 245px;
+    float: left;
+}
+.topsecright img
+{
+    height: 245px;
+    width: 50%;
+}
+.topsec2
+{
+    border-top: 5px solid lightgray;
+    background-color: #383d41;
+}
+.section2
+{
+    height: 500px;
+    width: 35%;
+    background-color: pink ;
+    float: left;
+    border-top: 5px solid lightgray;
+    border-left: 5px solid lightgray;
+}
+.section2 h2
+{
+    color: red;
+    text-decoration: dotted;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.section2 h3
+{
+    text-decoration: none;
+    text-align: justify;
+}
+
+
+/* image section  */
+/* .mySlides
+{
+     
+     
+
+} */
+/* img 
+{
+    vertical-align: middle;
+} */
+.mySlides img
+{
+    height: 455px;
+    width: 100%;
+    height: 400px;
+    
+}
+
+/* Slideshow container */
+.backstyle
+{
+  border-top: 4px solid lightgray;
+}
+.slideshow-container 
+{
+  max-width: 65%;
+  position: relative;
+  margin: auto;
+  display: flex;
+  
+}
+
+
+/* Caption text */
+.text 
+{
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text */
+.numbertext 
+{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  
+}
+/* .image-slide .mySlides .numbertext img{
+    width: 360px;
+    height: 380px;
+} */
+
+/* The dots */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* .active {
+  background-color: #717171;
+} */
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* department section  */
+.departments
+{   
+    display: flex;
+    border-top: 4px solid lightgray;
+}
+.d1
+{
+    width: 100%;
+}
+.d1 img
+{  
+    height: 180px;
+    width: 100%;
+    border-radius: 7%;
+}
+.container 
+{
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: lightblue;
+  color: rgb(183, 194, 33);
+  font-size: 28px;
+  font-weight: bold;
+  padding: 16px 32px;
+}
