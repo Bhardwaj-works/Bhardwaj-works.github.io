@@ -6,17 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: I am Chuan !
-name: DONGChuan
-email: dongchuan55@gmail.com
-location: Nice, France
-company: Gfi Informatique
-company_url: http://www.gfi.fr/en/
-github_url: https://github.com/DONGChuan
-description: This is personnel website of DONG Chuan
-favicon: favicon.png # Image must be in assets/images
+title: SRM Institute of Science & Technology
+name: 
+email: srmicdeis@gmail.com
+location: Chennai, Tamil Nadu
+#company:
+#company_url: http://www.gfi.fr/en/
+#github_url: https://github.com/DONGChuan
+#description: This is personnel website of DONG Chuan
+#favicon: favicon.png # Image must be in assets/images
 
-url: http://dongchuan.github.io # the base hostname & protocol for your site
+url: http://Bhardwaj-wroks.github.io # the base hostname & protocol for your site
 
 ## Gem
 gems:
@@ -56,16 +56,8 @@ navs:
     label: Home
 
   -
-    href: /open-source
-    label: Open-Source
-
-  -
-    href: /blog
-    label: Blog
-
-  -
-    href: /bookmark
-    label: Bookmark
+    href: /conference-commitee
+    label: Conference Commitee
 
   -
     href: /about
@@ -79,10 +71,3 @@ analytics :
   provider : google
   google :
       tracking_id : 'UA-72165600-1'
-
-
-# For about.html. Fell free to create your own!
-skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
-skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
-skill_mobile_app_keywords: [Android, Sketch UI Desgin]
