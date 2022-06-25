@@ -3,7 +3,7 @@
 
 .site-header{
     color: #fff;
-    background: #4183c4;
+    background: #fff;
 }
 
 .site-header #site-header-brand {
@@ -11,7 +11,7 @@
 }
 
 .site-header .site-header-nav-item {
-    color: #fff;
+    color: #9acfea;
 }
 
 .site-header a:hover {
