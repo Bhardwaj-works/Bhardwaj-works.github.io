@@ -1,5 +1,5 @@
-<div id="container-open-source">
-    <section class="jumbotron geopattern" data-pattern-id="{{ page.title }}">
+I";<div id="container-open-source">
+    <section class="jumbotron geopattern" data-pattern-id="conference commitee">
         <div class="container">
             <div id="jumbotron-meta-info">
                 <h1>Conference Commitee</h1>
@@ -19,3 +19,5 @@
 
     });
 </script>
+
+:ET
