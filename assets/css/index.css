@@ -11,7 +11,7 @@
 }
 
 .site-header .site-header-nav-item {
-    color: #279dd8;
+    color: #000000;
 }
 
 .site-header a:hover {
@@ -19,7 +19,7 @@
 }
 
 .jumbotron {
-    background: #087ef4;
+    background: #0097e8;
 }
 
 .site-header.site-header-nav-scrolled a {

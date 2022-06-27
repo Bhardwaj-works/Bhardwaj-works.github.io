@@ -1,4 +1,4 @@
-<div class="about row">
+I"�<!--<div class="about row">
 
     <div class="col-md-8">
 
@@ -35,10 +35,39 @@
                 Ramapuram, Chennai – 600 089
                 For enquiries 1800 102 1525
             </p>
-            <li>Email：<a href="mailto:{{ site.email }}" target="_top">{{ site.email }}</a></li>
-            <li>Website：<a href="{{ site.github_url }}">{{ site.github_url }}</a></li>
+            <li>Email：<a href="mailto:srmicdeis@gmail.com" target="_top">srmicdeis@gmail.com</a></li>
+            <li>Website：<a href=""></a></li>
         
         </ul>
 
     </div>
-    
+-->
+<hr />
+<p>layout: default
+menu: home
+css: [‘index.css’, ‘sidebar-popular-repo.css’]
+—</p>
+<section class="jumbotron">
+    <div class="container">
+        <h2>SRM Institute of Science &amp; Technology Ramapuram</h2>
+        <a href="srmicdeis@gmail.com"><b>CONTACT</b></a>
+        <h1></h1>
+    </div>
+</section>
+<section class="content container">
+    <div class="row">
+        <div class="col-md-end">
+            <h2>INTERNATIONAL CONFERENCE ON DATA ENGINEERING AND INTELLIGENT SYSTEMS (ICDEIS’22)</h2>
+
+            <h3><strong>ABOUT THE CONFERENCE</strong></h3>
+
+            <h4> International Conference on Data Engineering and Intelligent Systems (ICDEIS’22) will be a grand arena for Students, 
+                 Researchers, academicians, and Engineers from industries to share their knowledge and ideas in the area of Data Engineering 
+                 and Intelligent Systems. The conference welcomes and appreciates articles with novel ideas and research outcomes so that it 
+                 throws light in a new direction and brings out fruitful improvement to the lifestyle of common people. The Conference will 
+                 be held in the month of May 2022. The conference will be having plenary sessions followed by multiple sessions on paper 
+                 presentation under major domains of Information Technology. The participants will be getting a wonderful opportunity to attend 
+                 the keynote speeches of renowned International and National speakers in the fields of Data Engineering and Artificial 
+                 Intelligence.</h4>
+</div></div></section>
+:ET

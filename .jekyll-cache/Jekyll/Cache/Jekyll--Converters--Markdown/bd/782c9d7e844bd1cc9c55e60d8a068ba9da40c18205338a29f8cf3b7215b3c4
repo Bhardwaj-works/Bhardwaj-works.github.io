@@ -1,3 +1,14 @@
+I"g<hr />
+<p>layout: default
+menu: about
+css: [‘about.css’]
+—</p>
+<section class="about row">
+    <div class="jumbotron">
+        <h2>About</h2>
+        <h1></h1>
+    </div>
+</section>
 <div class="about row">
 
     <div class="col-md-8">
@@ -35,10 +46,12 @@
                 Ramapuram, Chennai – 600 089
                 For enquiries 1800 102 1525
             </p>
-            <li>Email：<a href="mailto:{{ site.email }}" target="_top">{{ site.email }}</a></li>
-            <li>Website：<a href="{{ site.github_url }}">{{ site.github_url }}</a></li>
+            <li>Email：<a href="mailto:srmicdeis@gmail.com" target="_top">srmicdeis@gmail.com</a></li>
+            <li>Website：<a href=""></a></li>
         
         </ul>
 
     </div>
     
+</div>
+:ET

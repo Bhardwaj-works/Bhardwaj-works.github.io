@@ -1,4 +1,4 @@
-.card-image {
+/*.card-image {
     display: table;
     height: 120px;
     width: 100%;
@@ -50,4 +50,38 @@
 
 .card-text .meta-info {
     margin-right: 10px;
+}*/
+
+
+.site-header{
+    color: #fff;
+    background: #fff;
+}
+
+.site-header #site-header-brand {
+    color: #fff;
+}
+
+.site-header .site-header-nav-item {
+    color: #000000;
+}
+
+.site-header a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.jumbotron {
+    background: #0097e8;
+}
+
+.site-header.site-header-nav-scrolled a {
+    color: #2e2e2e;
+}
+
+.site-header.site-header-nav-scrolled #site-header-brand {
+    color: #2e2e2e !important;
+}
+
+.site-header.site-header-nav-scrolled a:hover {
+    color: #4183c4;
 }
