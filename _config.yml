@@ -1,0 +1,77 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: SRM Institute of Science & Technology 
+        Ramapuram, Chennai.
+name: 
+email: srmicdeis@gmail.com
+location: Chennai, Tamil Nadu
+#company:
+#company_url: http://www.gfi.fr/en/
+#github_url: https://github.com/DONGChuan
+#description: This is personnel website of DONG Chuan
+#favicon: favicon.png # Image must be in assets/images
+
+url: https://Bhardwaj-wroks.github.io # the base hostname & protocol for your site
+
+## Gem
+gems:
+  - jekyll-paginate
+  - jekyll-geo-pattern
+  - rouge
+  - kramdown
+  - jekyll-github-metadata
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+
+source:      .
+destination: ./_site
+
+quiet:    false
+defaults: []
+
+kramdown:
+  input: GFM
+  enable_coderay: true
+
+# Disque
+
+# Pagination
+paginate: 10
+paginate_path: 'page:num'
+
+# Navigation
+navs:
+  -
+    href: /
+    label: Home
+
+  -
+    href: /commitee
+    label: Commitee
+  
+  #-
+   # href: /blog
+    #label: Blog 
+
+  -
+    href: /submission
+    label: Submission
+
+# Sidebar to show popular repo
+side_bar_repo_limit: 0 # Number of repos to show
+
+# Google Analytics
+analytics :
+  provider : google
+  google :
+      tracking_id : ''

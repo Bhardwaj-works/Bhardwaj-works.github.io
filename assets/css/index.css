@@ -1,0 +1,53 @@
+/** Only for index.html **/
+
+
+.site-header{
+    color: #fff;
+    background: #DFF6FF;
+}
+
+.site-header #site-header-brand {
+    color: #fff;
+}
+
+.site-header .site-header-nav-item {
+    color: #000000;
+}
+
+.site-header a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.jumbotron {
+    background: #1363DF;
+}
+
+.site-header.site-header-nav-scrolled a {
+    color: #2e2e2e;
+}
+
+.site-header.site-header-nav-scrolled #site-header-brand {
+    color: #2e2e2e !important;
+}
+
+.site-header.site-header-nav-scrolled a:hover {
+    color: #000000;
+}
+
+.rectangle1{
+    border-radius: 25px;
+    border: 4px solid #47B5FF;
+    padding: 25px;
+    width: 1200px;
+    height: 900px;
+}
+
+.rectangle2{
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 50px;
+    width: 500px;
+    height: 50px;
+}
+
+

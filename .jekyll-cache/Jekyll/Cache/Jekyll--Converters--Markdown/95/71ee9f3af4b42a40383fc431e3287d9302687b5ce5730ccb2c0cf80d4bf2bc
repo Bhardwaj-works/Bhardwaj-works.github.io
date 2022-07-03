@@ -1,0 +1,161 @@
+I"`<!--<div id="container-open-source">
+  <section class="jumbotron geopattern" data-pattern-id="conference commitee">
+        <div class="container">
+            <div id="jumbotron-meta-info">
+                <h1>Conference Commitee</h1>
+            </div>
+        </div>
+    </section>-->
+
+<section class="jumbotron">
+        <div class="container">
+            <h2>Conference Commitee</h2>
+            <h1></h1>
+        </div>
+</section>
+
+<section class="content container">
+        <div class="row">
+            <div class="col-md-end">
+                <div class="column">
+                <h3>INTERNATIONAL EXPERTS</h3>
+                    <br />
+                    <p><strong>Prof.Jiankun Hu<br />Professor,<br />The University of New South Wales,<br />Australian Defence Force Academy.</strong></p>
+                    <br />
+                    <p><strong>Dr.Anupama J Ginge<br /> 
+                               Associate Professor,<br />
+                               Western Sydney University.</strong></p>
+                    <br />
+                    <p><strong>Dr.Rodrigo Neves Calheiros<br />Dean Research,<br />Western Sydney University.</strong></p>
+                    <br />
+                    <p><strong>Prof.Merwyn Tawhai<br />
+                                Deputy Director,<br />
+                                University of Auckland, New Zealand.</strong></p>
+                    <br />
+                    <p><strong>Dr. Jayashri Ravishankar
+                                Associate Professor,<br />
+                                School of Electrical Engineering and Telecommunications,<br />
+                                University of new south wales,<br />
+                                Australia.
+                        </strong></p>
+                    <br />
+                    <p><strong>Dr. Suneth Pathirana<br />
+                        Department of Computer Science and Informatics,<br />
+                        Uva Wellassa University,<br />
+                        Srilanka.
+                        </strong></p>
+                </div>                
+                <div class="column2">
+                <h3>NATIONAL EXPERTS</h3>
+                <br />
+                    <p><strong>Dr. Sandhya Chintala<br />
+                                Executive Director,<br />
+                                IT- ITeS Sector Skills Council,<br /> 
+                                NASSCOM.
+                        </strong></p>
+                <br />
+                        <p><strong>Ms.Akila Ramachandran<br />
+                        Delivery Head at Tata Consultancy Services. 
+                        </strong></p>
+                <br />
+                        <p><strong>Dr. S. Chitrakala<br />
+                                    Professor,<br />
+                                    Department of Computer Science and Engineering,<br />
+                                    Anna University. Chennai.
+                        </strong></p>
+                <br />
+                        <p><strong>Dr.(Ms.) Rajeswari Sridhar<br />
+                                Professor,<br /> 
+                                Computer Science and Engineering, National Institute of Technology, Tiruchirapalli.<br />
+                        </strong></p>
+                <br />
+                        <p><strong>Dr Jimson Mathew<br />
+                                Associate Professor,<br />
+                                Indian Institute of Technology Patna.
+                        </strong></p>
+                <br />
+                        <p><strong>Dr.S.Venakatesan<br />
+                                    Associate Professor,<br />
+                                    Department of Information Technology,<br />
+                                    Indian Institute of Information Technology, Allahabad.
+                         </strong></p>
+                <br />
+                         <p><strong>Dr.Jinil D.Persis<br />
+                                Assistant Professor,<br />
+                                Industrial Engineering &amp; Manufacturing Systems,<br />
+                                National Institute of Industrial Engineering,<br />
+                                Mumbai.
+                        </strong></p>
+                <br />
+                        <p><strong>Dr.Revathi Venkataraman<br />
+                                    Professor and Chair Person,<br />
+                                    School of Computing,<br />
+                                    SRM Institute of Science and Technology Kattankulathur.
+                        </strong></p>
+                <br />
+                        <p><strong>Dr.M.Pushpalatha<br />
+                                Professor &amp; Head,<br />
+                                Department of Computing Technologies,<br />
+                                SRM Institute of Science and Technology Kattankulathur.
+                        </strong></p>
+                <br />
+                        <p><strong>Dr.Annapoorani Panaiyappan<br />
+                                    Professor and Head,<br />
+                                    Department of Networking and Communications,<br /> 
+                                    SRM Institute of Science &amp; Technology Kattankulathur.
+                        </strong></p>
+                <br />
+                        <p><strong>Dr.Annie Uthra<br />
+                                Professor and Head,<br /> 
+                                Department of Computational Intelligence,<br />
+                                SRM Institute of Science &amp; Technology Kattankulathur.
+                        </strong></p>
+                <br />
+                        <p><strong>Dr.M.Lakshmi<br />
+                                Professor and Head,<br /> 
+                                Department of Data Science and Business Systems,<br />
+                                SRM Institute of Science &amp; Technology Kattankulathur.
+                        </strong></p>
+                </div>
+                
+                <div class="column3">
+                    <h3>CONVENOR</h3>
+                    <p><strong>Dr.Rajeswari Mukesh<br />
+                        Professor and Head,<br />
+                        Department of Information Technology.
+                    </strong></p>
+                    <br />
+                    <h3>CO-CONVENOR</h3>
+                    <br />
+                    <p><strong>Dr. B. Dwarakanath<br />
+                                Assistant Professor,<br />
+                                Department of Information Technology.
+                        </strong></p>
+                    <br />
+                    <p><strong>Dr.R.Rathna<br />
+                                Assistant professor,<br />
+                                Department of Information Technology.
+                        </strong></p>
+                    <br />
+                    <p><strong>Dr.R.Mythili<br />
+                                Assistant professor,<br />
+                                Department of Information Technology.
+                        </strong></p>
+                </div>
+        </div>
+        </div>
+</section>
+<script>
+    $(document).ready(function(){
+
+        // Enable bootstrap tooltip
+        $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+
+        $('.geopattern').each(function(){
+            $(this).geopattern($(this).data('pattern-id'));
+        });
+
+    });
+</script>
+
+:ET

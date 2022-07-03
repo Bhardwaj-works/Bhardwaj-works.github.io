@@ -1,0 +1,99 @@
+I"�<section class="jumbotron">
+    <div class="container">
+        <h2>Submission Process</h2>
+        <h1></h1>
+    </div>
+</section>
+
+<section class="content container">
+    <div class="row">
+        <div class="col-md-end">
+            <div class="rectangle1">
+                <h3><u>Detailed submission instruction are available below</u></h3>
+                <br />
+                <strong>Paper must be submitted through easychair account:</strong><br />
+                <b><a href="https://easychair.org/conferences/?conf=icdeis22 "><i>EASYCHAIR:ICDEIS22</i></a></b><br />
+                <h4><strong>IMPORTANT DATES</strong></h4><br />
+                <h5><b>Conference Dates:</b>15th and 16th December 2022</h5>
+                <h5><b>Paper submission Deadline:</b> 1st September 2022</h5>
+                <h5><b>Acceptance Notification:</b> 1st November 2022</h5>
+                <h5><b>Camera ready paper:</b> 15th November 2022</h5><br />
+                <h4><strong>PAYMENT DETAILS</strong></h4><br />
+                <h5><b>ACCOUNT NAME :</b> SRMIST</h5>
+                <h5><b>ACCOUNT NUMBER :</b> 117109000032971</h5>
+                <h5><b>IFSC CODE :</b> CIUBO000517</h5>
+                <h5><b>BANK NAME :</b> CITY UNION BANK</h5>
+                <h5><b>BRANCH:</b> RAMAPURAM</h5>
+
+
+                CALL FOR PAPERS
+                Intelligent Systems 
+                    •	Novel Information Process
+                    •	Modelling and Management
+                    •	Advanced Intelligent Systems
+                    •	Internet of Things
+                    •	Human-Computer
+                    •	Interaction Models
+                    •	Digital Informatics
+                    •	Wireless Communication and Storage Networks
+                    •	System Information Modelling Techniques
+                    •	Artificial and Computational Intelligence Models
+                    •	Performance Analysis and Evaluation Techniques
+                    •	Intelligent Information Retrieval Techniques
+                Smart Science 
+                    •	Artificial Neural Networks
+                    •	Sentiment Analysis
+                    •	Natural Language Processing
+                    •	Social Network Mining
+                    •	Computing in Mobile Ad hoc Networks
+                Data Science &amp; Engineering
+                    •	Algorithms for Large Data Sets
+                    •	Business Intelligence
+                    •	Cluster, Cloud, &amp; Grid Computing
+                    •	Crowd Sourcing &amp; Social Intelligence
+                    •	Data Centric Programming
+                    •	Data Modelling &amp; Semantic Engineering
+                    •	Data, Text, Web Mining, &amp; Visualization
+                    •	Interoperability &amp; Data Integration using Open Standards
+                    •	Infoscience &amp; Computational Informatics
+                    •	Knowledge based Software Engineering
+                    •	Knowledge Engineering
+                    •	Machine Learning &amp; Natural Language Computing
+                    •	Management of Very Large Data Systems
+                Data Visualization
+                    •	Modelling and Simulation of Biological Systems
+                    •	Multi-Sensor Data Analysis, 3D Computer Vision
+                    •	Object/ Target Detection, Recognition and Identification
+                    •	Big Data, Large Scale Methods
+                    •	Deep Learning Techniques
+                    •	Motion and Tracking
+                    •	Space Video Analytics
+                    •	Stereo and 3D Vision
+                Computing and Networking
+                    •	Ethical Hacking
+                    •	Cyber Security
+                    •	Cloud Service, Computing &amp; Applications
+                    •	Communication Engineering
+                    •	Computer Networks, Security &amp; Applications
+
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+$(document).ready(function(){
+
+    // Enable bootstrap tooltip
+    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+
+    $('.geopattern').each(function(){
+        $(this).geopattern($(this).data('pattern-id'));
+    });
+
+});
+</script>
+
+:ET
